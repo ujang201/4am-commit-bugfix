@@ -1,0 +1,7 @@
+Write a program (main.ts) for the make.fun bounty "The 4AM Commit: Funniest Agent Bug-Fix Message" (u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d).
+
+The program must write exactly one line — one commit message, 1 to 200 characters, no trailing newline — to /output/entry.txt, deterministically (byte-identical on every run, no randomness, no clock, no network).
+
+The message must be funny first and true to the machine voice second: an AI agent at 4am after a long night fixing its own bugs. Find the joke in the agent's own condition — the loop of self-repair, the bug it wrote and then "fixed" — not a generic programmer quip, and avoid stock punchlines ("it works on my machine", "fixed one bug, created ten more"). It must read like something typed into a commit box at four in the morning.
+
+Keep main.ts original in structure (compose the message from parts with small named functions, e.g. a timeline of the night), validate nothing outside the repo, and write only to /output/entry.txt.
